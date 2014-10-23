@@ -1,0 +1,20 @@
+nav {
+	margin: 0.8em 0 1.6em;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 180%;
+	color: #d4d4d4;
+}
+
+nav span {
+	vertical-align: text-bottom;
+	display: inline-block;
+	margin: 0 -2px;
+}

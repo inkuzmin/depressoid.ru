@@ -1,0 +1,19 @@
+#content .vcard dl {
+	padding: 0 0 0.1em 0.3em;
+	bottom: -1.2em;
+	display: inline;
+}
+
+#content .vcard .locality {
+	margin-bottom: -1em;
+}
+
+#content .vcard dt,
+#content .vcard dd {
+	display: inline;
+}
+
+#content .vcard .rihnobus-point {
+	position: relative;
+	top: 0.6em;
+}

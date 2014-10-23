@@ -1,0 +1,34 @@
+body {
+    background: #393939;
+}
+
+a {
+    text-decoration: none;
+    color: #ed7141;
+    position: relative;
+    text-shadow: #393939 1px 1px, #393939 -1px 1px;
+    z-index: 1;
+}
+a:hover {
+    color: #ff956b;
+}
+a:before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    bottom: 0.1em;
+    z-index: -1;
+    width: 50%;
+    border-bottom: 1px solid #ff956b; 
+
+    
+}
+a:after {
+    content: '';
+    position: absolute;
+    right: 2px;
+    bottom: 0.1em;
+    z-index: -1;
+    width: 50%;
+    border-bottom: 1px solid #ff956b; 
+}
